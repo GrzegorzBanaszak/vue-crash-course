@@ -2,7 +2,7 @@
   <header>
     <div class="header__balance">
       <h4>My balance</h4>
-      <p>$921.48</p>
+      <p>${{ balance }}</p>
     </div>
     <img src="@/assets/logo.svg" alt="Site Logo" />
   </header>
@@ -11,6 +11,9 @@
 <script>
 export default {
   name: "CardHeader",
+  props: {
+    balance: Number,
+  },
 };
 </script>
 
