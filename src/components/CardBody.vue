@@ -84,7 +84,6 @@ export default {
 }
 
 .columns {
-  height: 300px;
   margin-top: 1rem;
   display: flex;
   justify-content: space-evenly;
