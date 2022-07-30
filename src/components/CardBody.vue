@@ -10,15 +10,19 @@
         :size="getProcentage(item.amount)"
       />
     </div>
+    <CardFooter />
   </div>
 </template>
 
 <script>
 import ColumnItem from "./ColumnItem.vue";
+import CardFooter from "./CardFooter.vue";
+
 export default {
   name: "CardBody",
   components: {
     ColumnItem,
+    CardFooter,
   },
   data() {
     return {
